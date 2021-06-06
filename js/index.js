@@ -33,7 +33,7 @@ starCountRef.on('value', (snapshot) => {
         promedio: 0,
     }
 
-    database.ref('votos/peliculas/'+"Sound of metal").set(titular4);
+    database.ref('votos/peliculas/'+"Sound of Metal").set(titular4);
 
     let titular5 = {
         nombre: "The Father",
